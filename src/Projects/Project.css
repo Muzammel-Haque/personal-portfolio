@@ -1,0 +1,29 @@
+.works{
+    color: white;
+    width: 500px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px gray;
+    border-radius: 5px;
+}
+.language button{
+    background-color: rgba(146, 58, 58, 0.6);
+    
+    color: white;
+    margin: 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+}
+.description{
+    position: relative;
+    right: 40px;
+    background-color:  black;
+    z-index: 1;
+
+}
+
+@media screen and (max-width: 600px) {
+    .description {
+      margin-left: 60px;
+    }
+  }
