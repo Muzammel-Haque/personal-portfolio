@@ -1,0 +1,17 @@
+label{
+  color: wheat;
+}
+
+@media screen and (max-width: 600px) {
+    .message {
+      background-color: white;
+      margin-left: 40px;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .message {
+      background-color: white;
+      margin-left: 150px;
+    }
+  }

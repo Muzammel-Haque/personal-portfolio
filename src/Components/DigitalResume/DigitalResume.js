@@ -12,7 +12,6 @@ import Sidebar from '../Navbar/Sidebar';
 const DigitalResume = () => {
     return (
         <div>
-            <Sidebar></Sidebar>
             <div style={{marginTop:'10px'}} className="row">
                 <div style={{marginLeft:'60px'}} className="about col-md-3">
                     <div id="self" className="first-section">
